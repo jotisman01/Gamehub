@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&effect=outline"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>        * { margin: 0;
+        padding: 0;}
+        .btn-1{ background: none;font-size: 14px;padding: 4px 10px;
+        border-radius: 10px;color:  rgb(246, 243, 243);border-width: 3px;border-color: aliceblue;font-family: "Audiowide",sans-serif;cursor: pointer;}
+    .box-main{    display: flex;
+    align-items: center;
+    justify-content: center;
+    background:rgba(15, 24, 150, 0.973); color: azure;top: 0%;position: sticky;
+    } 
+     .btn-1:hover{ color: aqua;
+        border-color: aqua;}
+    .left-nav{width: 80%; }
+    .lists{ padding: 21px 8px;
+        display: flex;
+        font-size: 19px;}
+    .right-nav{width:30%; 
+        text-align: right;
+        margin: 0 50px;
+         padding: 18px 25px; }
+    .lists li{ margin: 0 25px; }
+    .lists li a{text-decoration: none;
+         color: rgb(236, 229, 229);
+         font-family: "Audiowide", sans-serif;}
+    .lists li a:hover{ color: aqua;
+        border-color: aqua;}
+    .btn-2{ background: none;
+        border-radius: 10px;
+        padding: 4px 10px; 
+        font-size: 14px;
+        border-width: 3px;
+        cursor: pointer;
+        color: azure;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;}
+    .btn-2:hover{color: aqua;
+    border-color: aqua;}
+    .game{margin:55px 65px ;
+        padding: 10px 45px;
+        border-radius:80px;
+        border-color: aqua;
+        background: none;
+        font-size: 50px;
+        font-family:"Audiowide",sans-serif ;
+        color: rgb(246, 255, 0);}
+    .games{display: flex;}
+    .sp-1{background:url(http://store-images.s-microsoft.com/image/apps.29625.13510798887568201.5d0146ba-ac3a-4986-bbb5-493fc02bceb5.3a342b6c-637b-410d-9505-cf132c806da3?w=472&h=787&q=60);}
+    .sp-2{background: url(https://tse1.mm.bing.net/th?id=OIP.YiaPdqwa4nbR_bZPZyeAkwAAAA&pid=Api&P=0)}
+    .sp-3{background: url(https://tse4.mm.bing.net/th?id=OIP.oAhzMt3lr-SPafeIPgn-tAHaK1&pid=Api&P=0);}
+    #sp{width: 33.3%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:950px;}
+    .sp-4{background: url();}
+    .next-page{display: flex; 
+    height: 48px;
+    background-color: rgb(100, 150, 169);
+    justify-content: right;
+    align-items: center;}
+    #next{background:rgb(42, 254, 222) ;
+        border-radius: 15px;
+        padding: 4px 5px;
+        margin: 0 25px;
+        border-color: black;
+        border-width: 3px;
+        font-size: 22px;
+        text-decoration: none;}
+    .sp-4{ background: url(https://i0.wp.com/gameshunters.com/wp-content/uploads/2016/07/Real-Racing-3-for-pc-free.jpg?fit=685%2C350);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:950px;
+        width: 100%;}
+    .latest{font-size: 40px; 
+    margin: 125px 452px;
+    font-family: 'Audiowide',sans-serif;}
+    .unlimited{font-size: 30px; 
+    margin: 0px 608px;
+    color: rgb(1, 2, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    .download{margin: 0 655px;
+    font-size: 20px;}
+    @media only screen and (max-width:1140px){
+        .btn-1{ background: none;
+            font-size: 9px;
+            padding: 1px 6px;
+        border-radius: 10px;
+        color:  rgb(246, 243, 243);
+        border-width: 2px;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;
+        cursor: pointer;
+    border-radius: 50px;}
+    .box-main{    display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(15, 24, 150, 0.973); 
+        color: azure;
+        top: 0%;
+        position: sticky;} 
+    .btn-1:hover{ color: aqua;
+        border-color: aqua;}
+    .left-nav{width:60%; }
+    .lists{ padding: 1px 0px;
+        display: flex;
+        font-size: 10px;}
+    .right-nav{width:25%; 
+        text-align: right;
+        margin: 0 2px; 
+        padding: 4px 6px; }
+    .lists li{ margin: 0 15px; }
+    .lists li a{text-decoration: none; 
+        color: rgb(236, 229, 229);
+        font-family: "Audiowide", sans-serif;}
+    .lists li a:hover{ color: aqua;
+        border-color: aqua;}
+    .btn-2{ background: none;
+        border-radius: 50px;
+        padding: 1px 6px; 
+        font-size: 9px;
+        border-width: 2px;
+        cursor: pointer;
+        color: azure;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;}
+    .btn-2:hover{color: aqua;
+        border-color: aqua;}
+    .games{display:flex;}
+    #sp{width: 33.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:250px;}
+    .game{margin:10px 10px ;
+        padding: 10px 35px;
+        border-radius:80px;
+        border-color: aqua;
+        background: none;
+        font-size: 15px;
+        font-family:"Audiowide",sans-serif ;
+        color: rgb(246, 255, 0);}
+    .next-page{display: flex; 
+        height: 48px;
+        background-color: rgb(100, 150, 169);
+        justify-content: right;
+        align-items: center;}
+    #next{background:rgb(42, 254, 222) ;
+        border-radius: 15px;
+        padding: 1px 2px;
+        margin: 0 15px;
+        border-color: black;
+        border-width: 3px;
+        font-size: 12px;
+        text-decoration: none;}
+        .sp-4{ background: url(https://i0.wp.com/gameshunters.com/wp-content/uploads/2016/07/Real-Racing-3-for-pc-free.jpg?fit=685%2C350);
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:400px;
+        width: 100%;}
+    .latest{font-size: 25px; 
+    margin: 85px 65px;
+    font-family: 'Audiowide',sans-serif;}
+    .unlimited{font-size: 20px; 
+    margin: 0px 140px;
+    color: rgb(1, 2, 19);
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;}
+    .download{margin: 0 160px;
+    font-size: 15px;}
+    }
+    </style>
+    <title>Gamingworld</title>
+</head>
+<body>
+    <nav class="box-main">
+        <div class="left-nav">
+            <ul class="lists">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#download">Download</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#contact">Contact us</a></li>
+            </ul>
+        </div>
+        <div class="right-nav">
+        <a href="login.html"> 
+            <button class="btn-1">Log in</button>
+        </a>
+            <a href="signup.html">
+                <button class="btn-2">Sign up</button></a>
+            </div>
+        </div>
+    </nav>
+    <div class="games">
+        <span class="sp-1" id="sp"><button class="game">Download</button></span>
+        <span class="sp-2" id="sp"><button class="game">Download</button></span>
+        <span class="sp-3" id="sp"><button class="game">Download</button></span>
+    </div>
+    <div class="games" id="download">
+        <span class="sp-4" id="game-rr"> 
+        <h1 class="latest">Download the new version</h1><br><p class="unlimited">
+            link given below
+        </p>
+        <a  class = "download" href="https://real-racing-3.en.uptodown.com/android" >Download</a>
+     </span> 
+    </div>
+     <div class="next-page">
+        <span><a href="index.html">
+            <button id="next">Previous page</button></a>
+        </span>
+        <span>
+         <button class="btn" id="next">Next page</button>
+        </span>
+        </div>
+    <script>
+        let btn = document.querySelector('.btn');
+        btn.addEventListener('click',showmsg);
+        function showmsg(){
+            alert("This site is in progress");}
+            </script>
+</body>
+</html>

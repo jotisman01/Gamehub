@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Audiowide">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Ubuntu&effect=outline"> 
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="responsive.css"> -->
+    <style>
+        * { margin: 0;
+        padding: 0;}
+        .btn-1{ background: none;
+            font-size: 14px;
+            padding: 4px 10px;
+        border-radius: 10px;
+        color:  rgb(246, 243, 243);
+        border-width: 3px;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;
+        cursor: pointer;}
+    .box-main{    display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(15, 24, 150, 0.973); 
+        color: azure;
+        top: 0%;
+        position: sticky;} 
+    .btn-1:hover{ color: aqua;
+        border-color: aqua;}
+    .left-nav{width: 80%; }
+    .lists{ padding: 21px 8px;
+        display: flex;
+        font-size: 19px;}
+    .right-nav{width:30%; 
+        text-align: right;
+        margin: 0 50px; 
+        padding: 18px 25px; }
+    .lists li{ margin: 0 25px; }
+    .lists li a{text-decoration: none; 
+        color: rgb(236, 229, 229);
+        font-family: "Audiowide", sans-serif;}
+    .lists li a:hover{ color: aqua;
+        border-color: aqua;}
+    .btn-2{ background: none;
+        border-radius: 10px;
+        padding: 4px 10px; 
+        font-size: 14px;
+        border-width: 3px;
+        cursor: pointer;
+        color: azure;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;}
+    .btn-2:hover{color: aqua;
+        border-color: aqua;}
+    .main-body{background:url(https://i0.wp.com/youmeandtrends.com/wp-content/uploads/2015/09/Dragon-Art.jpg);
+        height: 750px;
+        width: 100%; 
+        color: rgba(237, 251, 251, 0.94);}
+    #h1{font-family:"Audiowide",sans-serif;
+        height: 180px;
+        font-size: 50px;}
+    #h3{font-size: 20px;
+        font-family: "Ubuntu", sans-serif;
+        height: 300px;
+        font-size: 40px;
+        color: rgb(192, 255, 115);}
+    .games{display:flex;}
+    .span-1{ width: 33.3%;
+        background: url(https://tse3.mm.bing.net/th?id=OIP.erzaWgY-in-k5OYKr3OIegHaNK&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat: no-repeat;}
+    .span-2{width: 33.3%;
+        height: 950px;
+        background: url(https://tse4.mm.bing.net/th?id=OIP.4ymisi6xg1uyH0GjsdZLyAHaNK&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat: no-repeat;}
+    .span-3{width: 33.3%; 
+        background: url(https://tse4.mm.bing.net/th?id=OIP.GiCFGsZA0rM5IKUUFYmB4AAAAA&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat:no-repeat;}
+    #sp{width: 33.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:950px;}
+    .game{margin:55px 65px ;
+        padding: 10px 45px;
+        border-radius:80px;
+        border-color: aqua;
+        background: none;
+        font-size: 50px;
+        font-family:"Audiowide",sans-serif ;
+        color: rgb(246, 255, 0);}
+    .span-1-1{background: url(https://tse4.mm.bing.net/th?id=OIP.rq1pYtUE8Fa8gb8MquN2ZgHaLW&pid=Api&P=0);}
+    .span-2-2{background: url(https://tse4.mm.bing.net/th?id=OIP.f18AfxWYsacK5SjKhT7hwQHaNL&pid=Api&P=0);}
+    .span-3-3{background: url(https://tse1.mm.bing.net/th?id=OIP.pjPR0K60l0f7kDaDmJflbAHaLG&pid=Api&P=0);}
+    .next-page{display: flex; 
+        height: 48px;
+        background-color: rgb(100, 150, 169);
+        justify-content: right;
+        align-items: center;}
+    #next{background:rgb(42, 254, 222) ;
+        border-radius: 15px;
+        padding: 4px 5px;
+        margin: 0 25px;
+        border-color: black;
+        border-width: 3px;
+        font-size: 22px;
+        text-decoration: none;}
+        @media only screen and (max-width:1140px){
+        .btn-1{ background: none;
+            font-size: 9px;
+            padding: 1px 6px;
+        border-radius: 10px;
+        color:  rgb(246, 243, 243);
+        border-width: 2px;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;
+        cursor: pointer;
+    border-radius: 50px;}
+    .box-main{    display: flex;
+        align-items: center;
+        justify-content: center;
+        background:rgba(15, 24, 150, 0.973); 
+        color: azure;
+        top: 0%;
+        position: sticky;} 
+    .btn-1:hover{ color: aqua;
+        border-color: aqua;}
+    .left-nav{width:60%; }
+    .lists{ padding: 1px 0px;
+        display: flex;
+        font-size: 10px;}
+    .right-nav{width:25%; 
+        text-align: right;
+        margin: 0 2px; 
+        padding: 4px 6px; }
+    .lists li{ margin: 0 15px; }
+    .lists li a{text-decoration: none; 
+        color: rgb(236, 229, 229);
+        font-family: "Audiowide", sans-serif;}
+    .lists li a:hover{ color: aqua;
+        border-color: aqua;}
+    .btn-2{ background: none;
+        border-radius: 50px;
+        padding: 1px 6px; 
+        font-size: 9px;
+        border-width: 2px;
+        cursor: pointer;
+        color: azure;
+        border-color: aliceblue;
+        font-family: "Audiowide",sans-serif;}
+    .btn-2:hover{color: aqua;
+        border-color: aqua;}
+    .main-body{background:url(https://i0.wp.com/youmeandtrends.com/wp-content/uploads/2015/09/Dragon-Art.jpg);
+        height: 350px;
+        width: 100%; 
+        color: rgba(237, 251, 251, 0.94);
+    background-size: cover;
+background-repeat: no-repeat;}
+    #h1{font-family:"Audiowide",sans-serif;
+        height: 90px;
+        font-size: 25px;}
+    #h3{font-family: "Ubuntu", sans-serif;
+        height: 140px;
+        font-size: 20px;
+        color: rgb(192, 255, 115);}
+    .games{display:flex;}
+    .span-1{ width: 33.3%;
+        background: url(https://tse3.mm.bing.net/th?id=OIP.erzaWgY-in-k5OYKr3OIegHaNK&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat: no-repeat;}
+    .span-2{width: 33.3%;
+        height: 300px;
+        background: url(https://tse4.mm.bing.net/th?id=OIP.4ymisi6xg1uyH0GjsdZLyAHaNK&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat: no-repeat;}
+    .span-3{width: 33.3%; 
+        background: url(https://tse4.mm.bing.net/th?id=OIP.GiCFGsZA0rM5IKUUFYmB4AAAAA&pid=Api&P=0);
+        background-size:cover; 
+        background-repeat:no-repeat;}
+    #sp{width: 33.3%;
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:250px;}
+    .game{margin:10px 10px ;
+        padding: 10px 35px;
+        border-radius:80px;
+        border-color: aqua;
+        background: none;
+        font-size: 15px;
+        font-family:"Audiowide",sans-serif ;
+        color: rgb(246, 255, 0);}
+    .span-1-1{background: url(https://tse4.mm.bing.net/th?id=OIP.rq1pYtUE8Fa8gb8MquN2ZgHaLW&pid=Api&P=0);}
+    .span-2-2{background: url(https://tse4.mm.bing.net/th?id=OIP.f18AfxWYsacK5SjKhT7hwQHaNL&pid=Api&P=0);}
+    .span-3-3{background: url(https://tse1.mm.bing.net/th?id=OIP.pjPR0K60l0f7kDaDmJflbAHaLG&pid=Api&P=0);}
+    .next-page{display: flex; 
+        height: 48px;
+        background-color: rgb(100, 150, 169);
+        justify-content: right;
+        align-items: center;}
+    #next{background:rgb(42, 254, 222) ;
+        border-radius: 15px;
+        padding: 1px 2px;
+        margin: 0 15px;
+        border-color: black;
+        border-width: 3px;
+        font-size: 12px;
+        text-decoration: none;}
+    }
+    </style>
+    <title>Gamingworld</title>
+</head>
+<body>
+<nav class="box-main">
+    <div class="left-nav">
+        <ul class="lists">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#download">Download</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#contact">Contact us</a></li>
+        </ul>
+    </div>
+    <div class="right-nav"><a href="login.html"> 
+        <button class="btn-1">Log in</button></a>
+        <a href="signup.html"><button class="btn-2">Sign up</button></a></div>
+    </div>
+</nav>
+   <div class="main-body"> <h1 id="h1">WELCOME TO GAMING WORLD</h1>
+    <h2 id="h3">Fulfil the madness of gaming fantasy</h2><div><br><br><br>
+    <div class="games" id="download">
+        <span class="span-1"><br>
+        <button class="game">Download</button>
+        </span><span class="span-2"><br>
+        <button class="game">Download</button></span>
+        <span class="span-3"><br>
+        <button class="game">Download</button>
+        </span>
+    </div>
+        <div class="games">
+            <span class="span-1-1" id="sp">
+            <button class="game">Download</button>
+            </span><span class="span-2-2" id="sp">
+            <button class="game">Download</button>
+        </span>
+            <span class="span-3-3" id="sp">
+            <button class="game">Download</button>
+            </span>
+        </div>    
+        <div class="next-page">
+            <span><a href="next.html">
+            <button id="next">Next page</button></a>
+            </span>
+        </div> 
+</body>
+</html>
